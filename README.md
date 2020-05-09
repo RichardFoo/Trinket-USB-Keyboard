@@ -1,6 +1,6 @@
 # USB Keyboard & Mouse Emulator - Adafruit Trinket M0
 
-The challenge was simple enough... beat the system by automating mouse clicks and
+The challenge sounded easy enough... beat the system by automating mouse clicks and
 keystrokes in an online game, so it'd think the player was still interacting
 (e.g., milking cows).
 
@@ -97,7 +97,7 @@ The hard parts...
   the device when you need to use the physical keyboard; this terminates the button-down
   event.
 
-- When in use, it'd be handy if the CIRCUITPY USB drive didn't auto-mount (because Windows
+- When in use, it'd be handy if the CIRCUITPY flash drive didn't auto-mount (because Windows
   10 auto-opens a File Explorer window).  I suspect there's a way to control this via the
   bootloader's boot.py file, but I don't find any documentation on it in CircuitPython.
   [This](https://github.com/adafruit/circuitpython/issues/1015) makes me believe the
