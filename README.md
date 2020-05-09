@@ -4,9 +4,9 @@ The challenge was simple enough... beat the system by automating mouse clicks an
 keystrokes in an online game, so it'd think the player was still interacting
 (e.g., milking cows).
 
-This is a simple project to emulate a USB mouse and keyboard.  A mouse button is held down
-for 2 minutes, followed by a couple keystrokes to jog the character and stay "active".
-Repeat, ad infinitum.
+This is a simple project to emulate a USB mouse and keyboard - a human interface device,
+or 'HID' in USB lingo.  A mouse button is held down for 2 minutes, followed by a couple
+keystrokes to jog the character and stay "active". Repeat, ad infinitum.
 
 
 ## The Hardware
@@ -14,10 +14,10 @@ Repeat, ad infinitum.
 [Adafruit Trinket M0](https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino)
 
 Why the Trinket?  Reasons... mostly, convenience.
-- Emulating USB devices requires support in both hardware and software.
-  E.g., The Pi Zero has a port capable of USB device emulation, but the regular Raspberry
-  Pi does not.  The Trinket's microcontroller (Atmel SAMD21) also has this support, making
-  it a great candidate.
+- Emulating USB devices requires support in both hardware and software - it sounds simple,
+  but it's not.  E.g., The Pi Zero has a port capable of USB device emulation, but the
+  regular Raspberry Pi does not.  The Trinket's microcontroller (Atmel SAMD21) also has
+  this support, making it a great candidate.
 - I had a Trinket M0 on-hand when the need arose.  Leftovers from a hands-on lab at a
   conference where I had hooked it to a GSM modem for testing.  I'd literally just found
   this lonely board while organizing my parts box and thought "This is tiny and nifty.
